@@ -6,7 +6,9 @@ This code is an example of data logging to an SD card using an Adafruit ADS1115 
 It includes the following libraries:
 
 Adafruit_ADS1015.h
+
 SPI.h
+
 SD.h
 SoftwareSerial.h
 Wire.h
