@@ -1,13 +1,16 @@
 #Arduino programming in C/C++ language to cover following three objectives:
-#To measure values of currents & voltages with a reasonable sampling rate in-order to record
-#required Maximas and Minimas
-#Save measured values
-#Communicate (send) two types of data, namely saved data & live data. Saved data: Send values
-#to memory module, to be stored. Live data: Send live data to the module.
+/*To measure values of currents & voltages with a reasonable sampling rate in-order to 
+1) Record required Maximas and Minimas
+2) Save measured values
+3) Communicate (send) two types of data, namely saved data & live data. Saved data: Send values
+to memory module, to be stored. Live data: Send live data to the module.
+*/
 
-#This code is designed to: acquire data, save data and send it to live stream in the main loop
-#When user sends '6' from Bluetooth serial via mobile app, code sends saved file to mobile for
-#processing and then again goes back into the main loop
+/*
+This code is designed to: acquire data, save data and send it to live stream in the main loop
+When user sends '6' from Bluetooth serial via mobile app, code sends saved file to mobile for
+processing and then again goes back into the main loop
+*/
 
 
 #include <Adafruit_ADS1015.h>
