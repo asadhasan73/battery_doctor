@@ -7,8 +7,7 @@ It includes the following libraries:
 
 Adafruit_ADS1015.h
 
-SPI.h
-
+SPI.h\n
 SD.h
 SoftwareSerial.h
 Wire.h
