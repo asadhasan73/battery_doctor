@@ -1,4 +1,4 @@
-#Arduino programming in C language to cover following three objectives:
+#Arduino programming in C/C++ language to cover following three objectives:
 #To measure values of currents & voltages with a reasonable sampling rate in-order to record
 #required Maximas and Minimas
 #Save measured values
